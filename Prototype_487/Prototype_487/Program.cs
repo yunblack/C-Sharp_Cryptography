@@ -1,4 +1,12 @@
-﻿using System;
+﻿
+/*
+ * Stony Brook University
+ * Computer Science Undergraduate Research Project CSE 487
+ * Juyoung Daniel Yun
+ * Juyoung.yun@stonybrook.edu
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;

@@ -76,6 +76,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="deCodeForm.resx">
+      <DependentUpon>deCodeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enCodeForm.resx">
+      <DependentUpon>enCodeForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
