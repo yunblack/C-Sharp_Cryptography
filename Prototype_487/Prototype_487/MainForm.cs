@@ -32,5 +32,11 @@ namespace Prototype_487
             mainPanel01.BringToFront();
 
         }
+
+        private void startBtn_Click(object sender, EventArgs e)
+        {
+            mainPanel01.SendToBack();
+            mainPanel01.Visible = false;
+        }
     }
 }

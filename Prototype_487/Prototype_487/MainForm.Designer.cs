@@ -34,7 +34,11 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.mainPanel01 = new System.Windows.Forms.Panel();
+            this.startBtn = new System.Windows.Forms.Button();
+            this.mainLabel01 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.mainPanel01.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -75,10 +79,49 @@
             // 
             // mainPanel01
             // 
+            this.mainPanel01.Controls.Add(this.label1);
+            this.mainPanel01.Controls.Add(this.mainLabel01);
+            this.mainPanel01.Controls.Add(this.startBtn);
             this.mainPanel01.Location = new System.Drawing.Point(23, 63);
             this.mainPanel01.Name = "mainPanel01";
             this.mainPanel01.Size = new System.Drawing.Size(854, 414);
             this.mainPanel01.TabIndex = 2;
+            // 
+            // startBtn
+            // 
+            this.startBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.startBtn.Font = new System.Drawing.Font("Adobe Kaiti Std R", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.startBtn.ForeColor = System.Drawing.Color.White;
+            this.startBtn.Location = new System.Drawing.Point(333, 287);
+            this.startBtn.Name = "startBtn";
+            this.startBtn.Size = new System.Drawing.Size(187, 45);
+            this.startBtn.TabIndex = 0;
+            this.startBtn.TabStop = false;
+            this.startBtn.Text = "Start Crytography";
+            this.startBtn.UseVisualStyleBackColor = true;
+            this.startBtn.Click += new System.EventHandler(this.startBtn_Click);
+            // 
+            // mainLabel01
+            // 
+            this.mainLabel01.AutoSize = true;
+            this.mainLabel01.Font = new System.Drawing.Font("Adobe Kaiti Std R", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.mainLabel01.ForeColor = System.Drawing.Color.White;
+            this.mainLabel01.Location = new System.Drawing.Point(237, 165);
+            this.mainLabel01.Name = "mainLabel01";
+            this.mainLabel01.Size = new System.Drawing.Size(389, 30);
+            this.mainLabel01.TabIndex = 1;
+            this.mainLabel01.Text = "Online Secret Splitting and Sharing";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Adobe Kaiti Std R", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(359, 208);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(138, 20);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Prototype Version";
             // 
             // MainForm
             // 
@@ -92,10 +135,12 @@
             this.Controls.Add(this.panel1);
             this.Name = "MainForm";
             this.Style = MetroFramework.MetroColorStyle.Black;
-            this.Text = "Prototype";
+            this.Text = "Prototype 7";
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.panel1.ResumeLayout(false);
+            this.mainPanel01.ResumeLayout(false);
+            this.mainPanel01.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -108,6 +153,9 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel mainPanel01;
+        private System.Windows.Forms.Button startBtn;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label mainLabel01;
     }
 }
 
