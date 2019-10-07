@@ -71,6 +71,7 @@
             this.textLabel10 = new System.Windows.Forms.Label();
             this.textLabel09 = new System.Windows.Forms.Label();
             this.nextBtn = new System.Windows.Forms.Button();
+            this.encryptionInnerPanel = new System.Windows.Forms.Panel();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.mainPanel01.SuspendLayout();
@@ -78,6 +79,7 @@
             this.encryptionPanel.SuspendLayout();
             this.decryptionPanel.SuspendLayout();
             this.panel7.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -318,6 +320,7 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.encryptionInnerPanel);
             this.panel1.Location = new System.Drawing.Point(430, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(424, 414);
@@ -586,6 +589,14 @@
             this.nextBtn.Text = "Next";
             this.nextBtn.UseVisualStyleBackColor = true;
             this.nextBtn.Visible = false;
+            this.nextBtn.Click += new System.EventHandler(this.nextBtn_Click);
+            // 
+            // encryptionInnerPanel
+            // 
+            this.encryptionInnerPanel.Location = new System.Drawing.Point(3, 3);
+            this.encryptionInnerPanel.Name = "encryptionInnerPanel";
+            this.encryptionInnerPanel.Size = new System.Drawing.Size(416, 406);
+            this.encryptionInnerPanel.TabIndex = 0;
             // 
             // MainForm
             // 
@@ -614,6 +625,7 @@
             this.decryptionPanel.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -662,6 +674,7 @@
         private System.Windows.Forms.Label textLabel10;
         private System.Windows.Forms.Label textLabel09;
         private System.Windows.Forms.Button nextBtn;
+        private System.Windows.Forms.Panel encryptionInnerPanel;
     }
 }
 

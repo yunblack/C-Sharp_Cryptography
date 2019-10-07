@@ -28,6 +28,16 @@ namespace Prototype_487
         }
 
         public static int numberofAdmin = 0;
+        public static string adminEmail01 = "";
+        public static string adminEmail02 = "";
+        public static string adminEmail03 = "";
+        public static string adminEmail04 = "";
+        public static string adminEmail05 = "";
+        public static string adminEmail06 = "";
+        public static string adminEmail07 = "";
+        public static string adminEmail08 = "";
+        public static string adminEmail09 = "";
+        public static string adminEmail10 = "";
 
         private void MainForm_Load(object sender, EventArgs e)
         {
@@ -199,6 +209,95 @@ namespace Prototype_487
         private void panel7_Paint_1(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void nextBtn_Click(object sender, EventArgs e)
+        {
+            if (numberofAdmin==1)
+            {
+                adminEmail01 = textLabel01.Text;
+            }
+            else if (numberofAdmin == 2)
+            {
+                adminEmail01 = textLabel01.Text;
+                adminEmail02 = textLabel02.Text;
+            }
+            else if (numberofAdmin == 3)
+            {
+                adminEmail01 = textLabel01.Text;
+                adminEmail02 = textLabel02.Text;
+                adminEmail03 = textLabel03.Text;
+            }
+            else if (numberofAdmin == 4)
+            {
+                adminEmail01 = textLabel01.Text;
+                adminEmail02 = textLabel02.Text;
+                adminEmail03 = textLabel03.Text;
+                adminEmail04 = textLabel04.Text;
+            }
+            else if (numberofAdmin == 5)
+            {
+                adminEmail01 = textLabel01.Text;
+                adminEmail02 = textLabel02.Text;
+                adminEmail03 = textLabel03.Text;
+                adminEmail04 = textLabel04.Text;
+                adminEmail05 = textLabel05.Text;
+            }
+            else if (numberofAdmin == 6)
+            {
+                adminEmail01 = textLabel01.Text;
+                adminEmail02 = textLabel02.Text;
+                adminEmail03 = textLabel03.Text;
+                adminEmail04 = textLabel04.Text;
+                adminEmail05 = textLabel05.Text;
+                adminEmail06 = textLabel06.Text;
+            }
+            else if (numberofAdmin == 7)
+            {
+                adminEmail01 = textLabel01.Text;
+                adminEmail02 = textLabel02.Text;
+                adminEmail03 = textLabel03.Text;
+                adminEmail04 = textLabel04.Text;
+                adminEmail05 = textLabel05.Text;
+                adminEmail06 = textLabel06.Text;
+                adminEmail07 = textLabel07.Text;
+            }
+            else if (numberofAdmin == 8)
+            {
+                adminEmail01 = textLabel01.Text;
+                adminEmail02 = textLabel02.Text;
+                adminEmail03 = textLabel03.Text;
+                adminEmail04 = textLabel04.Text;
+                adminEmail05 = textLabel05.Text;
+                adminEmail06 = textLabel06.Text;
+                adminEmail07 = textLabel07.Text;
+                adminEmail08 = textLabel08.Text;
+            }
+            else if (numberofAdmin == 9)
+            {
+                adminEmail01 = textLabel01.Text;
+                adminEmail02 = textLabel02.Text;
+                adminEmail03 = textLabel03.Text;
+                adminEmail04 = textLabel04.Text;
+                adminEmail05 = textLabel05.Text;
+                adminEmail06 = textLabel06.Text;
+                adminEmail07 = textLabel07.Text;
+                adminEmail08 = textLabel08.Text;
+                adminEmail09 = textLabel09.Text;
+            }
+            else if (numberofAdmin == 10)
+            {
+                adminEmail01 = textLabel01.Text;
+                adminEmail02 = textLabel02.Text;
+                adminEmail03 = textLabel03.Text;
+                adminEmail04 = textLabel04.Text;
+                adminEmail05 = textLabel05.Text;
+                adminEmail06 = textLabel06.Text;
+                adminEmail07 = textLabel07.Text;
+                adminEmail08 = textLabel08.Text;
+                adminEmail09 = textLabel09.Text;
+                adminEmail10 = textLabel10.Text;
+            }
         }
     }
 }
