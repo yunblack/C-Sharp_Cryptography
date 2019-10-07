@@ -38,6 +38,7 @@ namespace Prototype_487
         public static string adminEmail08 = "";
         public static string adminEmail09 = "";
         public static string adminEmail10 = "";
+        public static string secretKey = "";
 
         private void MainForm_Load(object sender, EventArgs e)
         {
@@ -298,6 +299,9 @@ namespace Prototype_487
                 adminEmail09 = textLabel09.Text;
                 adminEmail10 = textLabel10.Text;
             }
+            encryptionInnerPanel.Visible = true;
+            //Key
+            secretKey = "HelloWorld";
         }
     }
 }

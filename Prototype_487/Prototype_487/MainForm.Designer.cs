@@ -72,6 +72,10 @@
             this.textLabel09 = new System.Windows.Forms.Label();
             this.nextBtn = new System.Windows.Forms.Button();
             this.encryptionInnerPanel = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.encryptionContent = new System.Windows.Forms.TextBox();
+            this.encryptTextBtn = new System.Windows.Forms.Button();
+            this.encryptedContent = new System.Windows.Forms.TextBox();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.mainPanel01.SuspendLayout();
@@ -80,6 +84,7 @@
             this.decryptionPanel.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.encryptionInnerPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -593,10 +598,60 @@
             // 
             // encryptionInnerPanel
             // 
+            this.encryptionInnerPanel.Controls.Add(this.encryptedContent);
+            this.encryptionInnerPanel.Controls.Add(this.encryptTextBtn);
+            this.encryptionInnerPanel.Controls.Add(this.encryptionContent);
+            this.encryptionInnerPanel.Controls.Add(this.label5);
             this.encryptionInnerPanel.Location = new System.Drawing.Point(3, 3);
             this.encryptionInnerPanel.Name = "encryptionInnerPanel";
             this.encryptionInnerPanel.Size = new System.Drawing.Size(416, 406);
             this.encryptionInnerPanel.TabIndex = 0;
+            this.encryptionInnerPanel.Visible = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Adobe Kaiti Std R", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label5.ForeColor = System.Drawing.Color.Silver;
+            this.label5.Location = new System.Drawing.Point(327, 28);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(86, 26);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Content";
+            // 
+            // encryptionContent
+            // 
+            this.encryptionContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.encryptionContent.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.encryptionContent.ForeColor = System.Drawing.Color.White;
+            this.encryptionContent.Location = new System.Drawing.Point(3, 57);
+            this.encryptionContent.Multiline = true;
+            this.encryptionContent.Name = "encryptionContent";
+            this.encryptionContent.Size = new System.Drawing.Size(410, 139);
+            this.encryptionContent.TabIndex = 9;
+            // 
+            // encryptTextBtn
+            // 
+            this.encryptTextBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.encryptTextBtn.ForeColor = System.Drawing.Color.White;
+            this.encryptTextBtn.Location = new System.Drawing.Point(334, 375);
+            this.encryptTextBtn.Name = "encryptTextBtn";
+            this.encryptTextBtn.Size = new System.Drawing.Size(79, 22);
+            this.encryptTextBtn.TabIndex = 22;
+            this.encryptTextBtn.Text = "Encrypt";
+            this.encryptTextBtn.UseVisualStyleBackColor = true;
+            // 
+            // encryptedContent
+            // 
+            this.encryptedContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.encryptedContent.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.encryptedContent.Enabled = false;
+            this.encryptedContent.ForeColor = System.Drawing.Color.White;
+            this.encryptedContent.Location = new System.Drawing.Point(3, 202);
+            this.encryptedContent.Multiline = true;
+            this.encryptedContent.Name = "encryptedContent";
+            this.encryptedContent.Size = new System.Drawing.Size(410, 162);
+            this.encryptedContent.TabIndex = 23;
             // 
             // MainForm
             // 
@@ -626,6 +681,8 @@
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel1.ResumeLayout(false);
+            this.encryptionInnerPanel.ResumeLayout(false);
+            this.encryptionInnerPanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -675,6 +732,10 @@
         private System.Windows.Forms.Label textLabel09;
         private System.Windows.Forms.Button nextBtn;
         private System.Windows.Forms.Panel encryptionInnerPanel;
+        private System.Windows.Forms.TextBox encryptionContent;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button encryptTextBtn;
+        private System.Windows.Forms.TextBox encryptedContent;
     }
 }
 
