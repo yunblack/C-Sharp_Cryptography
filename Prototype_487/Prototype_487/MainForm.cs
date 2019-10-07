@@ -29,6 +29,7 @@ namespace Prototype_487
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+            mainPanel01.BringToFront();
 
         }
     }
