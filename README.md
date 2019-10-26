@@ -1,4 +1,4 @@
-# BASE CRYPTOGRAPHY C#
+# CRYPTOGRAPHY C#
 Online Secret Splitting and Sharing C# Sources
 
 # File Encryption and Online Distributed Sharing System with Cachin’s Online Secret Splitting and Sharing
