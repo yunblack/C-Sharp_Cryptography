@@ -1,0 +1,14 @@
+C:\Users\다니엘\Desktop\C-Sharp_Cryptography-master\Prototype_487\Prototype_487\bin\Debug\Prototype_487.exe.config
+C:\Users\다니엘\Desktop\C-Sharp_Cryptography-master\Prototype_487\Prototype_487\bin\Debug\Prototype_487.exe
+C:\Users\다니엘\Desktop\C-Sharp_Cryptography-master\Prototype_487\Prototype_487\bin\Debug\Prototype_487.pdb
+C:\Users\다니엘\Desktop\C-Sharp_Cryptography-master\Prototype_487\Prototype_487\bin\Debug\MetroFramework.dll
+C:\Users\다니엘\Desktop\C-Sharp_Cryptography-master\Prototype_487\Prototype_487\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\다니엘\Desktop\C-Sharp_Cryptography-master\Prototype_487\Prototype_487\obj\Debug\Prototype_487.csprojAssemblyReference.cache
+C:\Users\다니엘\Desktop\C-Sharp_Cryptography-master\Prototype_487\Prototype_487\obj\Debug\Prototype_487.deCodeForm.resources
+C:\Users\다니엘\Desktop\C-Sharp_Cryptography-master\Prototype_487\Prototype_487\obj\Debug\Prototype_487.enCodeForm.resources
+C:\Users\다니엘\Desktop\C-Sharp_Cryptography-master\Prototype_487\Prototype_487\obj\Debug\Prototype_487.MainForm.resources
+C:\Users\다니엘\Desktop\C-Sharp_Cryptography-master\Prototype_487\Prototype_487\obj\Debug\Prototype_487.Properties.Resources.resources
+C:\Users\다니엘\Desktop\C-Sharp_Cryptography-master\Prototype_487\Prototype_487\obj\Debug\Prototype_487.csproj.GenerateResource.cache
+C:\Users\다니엘\Desktop\C-Sharp_Cryptography-master\Prototype_487\Prototype_487\obj\Debug\Prototype_487.csproj.CopyComplete
+C:\Users\다니엘\Desktop\C-Sharp_Cryptography-master\Prototype_487\Prototype_487\obj\Debug\Prototype_487.exe
+C:\Users\다니엘\Desktop\C-Sharp_Cryptography-master\Prototype_487\Prototype_487\obj\Debug\Prototype_487.pdb
