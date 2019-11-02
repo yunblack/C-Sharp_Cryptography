@@ -28,6 +28,9 @@ namespace Prototype_487
 
             byte[] pwdBytes = Encoding.UTF8.GetBytes(key);
             byte[] keyBytes = new byte[16];
+
+            
+
             int len = pwdBytes.Length;
 
             if (len > keyBytes.Length)

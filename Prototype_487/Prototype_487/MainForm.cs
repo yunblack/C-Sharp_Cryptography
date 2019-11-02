@@ -17,6 +17,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Security.Cryptography;
+using System.Net;
+using System.Net.Configuration;
+using System.Net.Mail;
+using System.Net.Mime;
+using System.Web;
+using System.Text;
+
 
 namespace Prototype_487
 {
@@ -187,7 +194,7 @@ namespace Prototype_487
             else
             {
                 EmailTextClean();
-                MessageBox.Show("Invalid Value","Error");
+                MessageBox.Show("Invalid Value", "Error");
                 numberofAdmin = 0;
             }
         }
@@ -214,94 +221,134 @@ namespace Prototype_487
 
         private void nextBtn_Click(object sender, EventArgs e)
         {
-            if (numberofAdmin==1)
+            if (numberofAdmin == 1)
             {
-                adminEmail01 = textLabel01.Text;
+                adminEmail01 = CryptionEmail01.Text;
             }
             else if (numberofAdmin == 2)
             {
-                adminEmail01 = textLabel01.Text;
-                adminEmail02 = textLabel02.Text;
+                adminEmail01 = CryptionEmail01.Text;
+                adminEmail02 = CryptionEmail02.Text;
             }
             else if (numberofAdmin == 3)
             {
-                adminEmail01 = textLabel01.Text;
-                adminEmail02 = textLabel02.Text;
-                adminEmail03 = textLabel03.Text;
+                adminEmail01 = CryptionEmail01.Text;
+                adminEmail02 = CryptionEmail02.Text;
+                adminEmail03 = CryptionEmail03.Text;
             }
             else if (numberofAdmin == 4)
             {
-                adminEmail01 = textLabel01.Text;
-                adminEmail02 = textLabel02.Text;
-                adminEmail03 = textLabel03.Text;
-                adminEmail04 = textLabel04.Text;
+                adminEmail01 = CryptionEmail01.Text;
+                adminEmail02 = CryptionEmail02.Text;
+                adminEmail03 = CryptionEmail03.Text;
+                adminEmail04 = CryptionEmail04.Text;
             }
             else if (numberofAdmin == 5)
             {
-                adminEmail01 = textLabel01.Text;
-                adminEmail02 = textLabel02.Text;
-                adminEmail03 = textLabel03.Text;
-                adminEmail04 = textLabel04.Text;
-                adminEmail05 = textLabel05.Text;
+                adminEmail01 = CryptionEmail01.Text;
+                adminEmail02 = CryptionEmail02.Text;
+                adminEmail03 = CryptionEmail03.Text;
+                adminEmail04 = CryptionEmail04.Text;
+                adminEmail05 = CryptionEmail05.Text;
             }
             else if (numberofAdmin == 6)
             {
-                adminEmail01 = textLabel01.Text;
-                adminEmail02 = textLabel02.Text;
-                adminEmail03 = textLabel03.Text;
-                adminEmail04 = textLabel04.Text;
-                adminEmail05 = textLabel05.Text;
-                adminEmail06 = textLabel06.Text;
+                adminEmail01 = CryptionEmail01.Text;
+                adminEmail02 = CryptionEmail02.Text;
+                adminEmail03 = CryptionEmail03.Text;
+                adminEmail04 = CryptionEmail04.Text;
+                adminEmail05 = CryptionEmail05.Text;
+                adminEmail06 = CryptionEmail06.Text;
             }
             else if (numberofAdmin == 7)
             {
-                adminEmail01 = textLabel01.Text;
-                adminEmail02 = textLabel02.Text;
-                adminEmail03 = textLabel03.Text;
-                adminEmail04 = textLabel04.Text;
-                adminEmail05 = textLabel05.Text;
-                adminEmail06 = textLabel06.Text;
-                adminEmail07 = textLabel07.Text;
+                adminEmail01 = CryptionEmail01.Text;
+                adminEmail02 = CryptionEmail02.Text;
+                adminEmail03 = CryptionEmail03.Text;
+                adminEmail04 = CryptionEmail04.Text;
+                adminEmail05 = CryptionEmail05.Text;
+                adminEmail06 = CryptionEmail06.Text;
+                adminEmail07 = CryptionEmail07.Text;
             }
             else if (numberofAdmin == 8)
             {
-                adminEmail01 = textLabel01.Text;
-                adminEmail02 = textLabel02.Text;
-                adminEmail03 = textLabel03.Text;
-                adminEmail04 = textLabel04.Text;
-                adminEmail05 = textLabel05.Text;
-                adminEmail06 = textLabel06.Text;
-                adminEmail07 = textLabel07.Text;
-                adminEmail08 = textLabel08.Text;
+                adminEmail01 = CryptionEmail01.Text;
+                adminEmail02 = CryptionEmail02.Text;
+                adminEmail03 = CryptionEmail03.Text;
+                adminEmail04 = CryptionEmail04.Text;
+                adminEmail05 = CryptionEmail05.Text;
+                adminEmail06 = CryptionEmail06.Text;
+                adminEmail07 = CryptionEmail07.Text;
+                adminEmail08 = CryptionEmail08.Text;
             }
             else if (numberofAdmin == 9)
             {
-                adminEmail01 = textLabel01.Text;
-                adminEmail02 = textLabel02.Text;
-                adminEmail03 = textLabel03.Text;
-                adminEmail04 = textLabel04.Text;
-                adminEmail05 = textLabel05.Text;
-                adminEmail06 = textLabel06.Text;
-                adminEmail07 = textLabel07.Text;
-                adminEmail08 = textLabel08.Text;
-                adminEmail09 = textLabel09.Text;
+                adminEmail01 = CryptionEmail01.Text;
+                adminEmail02 = CryptionEmail02.Text;
+                adminEmail03 = CryptionEmail03.Text;
+                adminEmail04 = CryptionEmail04.Text;
+                adminEmail05 = CryptionEmail05.Text;
+                adminEmail06 = CryptionEmail06.Text;
+                adminEmail07 = CryptionEmail07.Text;
+                adminEmail08 = CryptionEmail08.Text;
+                adminEmail09 = CryptionEmail09.Text;
             }
             else if (numberofAdmin == 10)
             {
-                adminEmail01 = textLabel01.Text;
-                adminEmail02 = textLabel02.Text;
-                adminEmail03 = textLabel03.Text;
-                adminEmail04 = textLabel04.Text;
-                adminEmail05 = textLabel05.Text;
-                adminEmail06 = textLabel06.Text;
-                adminEmail07 = textLabel07.Text;
-                adminEmail08 = textLabel08.Text;
-                adminEmail09 = textLabel09.Text;
-                adminEmail10 = textLabel10.Text;
+                adminEmail01 = CryptionEmail01.Text;
+                adminEmail02 = CryptionEmail02.Text;
+                adminEmail03 = CryptionEmail03.Text;
+                adminEmail04 = CryptionEmail04.Text;
+                adminEmail05 = CryptionEmail05.Text;
+                adminEmail06 = CryptionEmail06.Text;
+                adminEmail07 = CryptionEmail07.Text;
+                adminEmail08 = CryptionEmail08.Text;
+                adminEmail09 = CryptionEmail09.Text;
+                adminEmail10 = CryptionEmail10.Text;
             }
             encryptionInnerPanel.Visible = true;
             //Key
-            secretKey = "HelloWorld";
+            secretKey = randomKey.makeKeyRandonly("FakeKey");
+        }
+        public string encrytedCodeToSend = "";
+
+        private void encryptTextBtn_Click(object sender, EventArgs e)
+        {
+
+            encryptedContent.Text = enCrypt.Encrypt(encryptionContent.Text, secretKey);
+            encrytedCodeToSend = encryptedContent.Text;
+            divideSecretKey();
+        }
+
+        public void divideSecretKey(){
+            string title = "RESEARCH 487 TEST";           
+            Send(title, encrytedCodeToSend, adminEmail01);
+            //MessageBox.Show(secretKey);
+        }
+	public string id="";
+	public string pw="";
+        public static void Send(string sTitle, string sMessage, string toEmail)
+        {
+            // smtp
+            SmtpClient cSmtpClient = new SmtpClient("smtp.gmail.com", 587);
+            cSmtpClient.UseDefaultCredentials = false;
+            cSmtpClient.EnableSsl = true;
+            cSmtpClient.Credentials = new NetworkCredential(id, pw);
+            // mail
+            MailMessage cMailMessage = new MailMessage();
+            cMailMessage.To.Add(new MailAddress(toEmail));
+            cMailMessage.From = new MailAddress("daniel.juyyun@gmail.com");
+            cMailMessage.Subject = sTitle; 
+            cMailMessage.Body = sMessage;
+            try
+            {
+                cSmtpClient.Send(cMailMessage);
+            }
+            catch (Exception ex)
+            {
+                //MessageBox.Show(ex.ToString());
+            }
+            //MessageBox.Show("Send OK");
         }
     }
 }
